@@ -1,10 +1,12 @@
 import './App.css';
 
-function App() {
+function App(props) {
+  const { state, dispatch } = props;
+
   return (
-    <>
+    <div>
     
-    </>
+    </div>
   );
 }
 
